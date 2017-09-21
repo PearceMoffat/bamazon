@@ -16,9 +16,7 @@ When a user signs on as a manager, they are presented with a menu with 5 options
 - Quit
   - Quit the program.
 
-
-
-
+![Image of Manager Flow](https://github.com/PearceMoffat/bamazon/blob/master/images/manager-flow.png)
 
  # bamazonSupervisor
 When a user signs on as a supervisor, they are presented with a menu with 3 options.
@@ -28,3 +26,5 @@ When a user signs on as a supervisor, they are presented with a menu with 3 opti
   - Allow the user to create a new department and set the over head costs for that department. When a department is created, the user then create an item to be sold in that department so that no department is product-less.
 - Quit
   - Quit the program.
+
+  ![Image of Supervisor Flow](https://github.com/PearceMoffat/bamazon/blob/master/images/supervisor-flow.png  )
