@@ -1,9 +1,7 @@
 # bamazonCustomer
 When a user signs on as a customer, a table of all products available is displayed. Product name, department name, price, and number in stock are all listed. User is prompted for an ID of an item they would like to buy, program will not allow user to submit an ID that is not listed. When a user successfully selects an item, they are prompted for a quantity. If the user selects 0, the program quits. Otherwise, the user will be shown their total payment and prompted with the menu again. Repeat until user quits.
 
-
-
-
+![Image of Customer Flow](https://github.com/PearceMoffat/bamazon/blob/master/images/customer-flow.png)
 
 # bamazonManager
 When a user signs on as a manager, they are presented with a menu with 5 options.
