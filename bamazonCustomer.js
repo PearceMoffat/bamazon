@@ -1,12 +1,13 @@
 var inquirer = require("inquirer");
 var mysql = require("mysql");
 var clear = require("clear");
+var keys = require("./keys.js");
 // Setup connection info for mysql database
 var con = mysql.createConnection({
     host: "localhost",
     port: 3306,
-    user: "root",
-    password: "bananazone11",
+    user: keys.user,
+    password: keys.pass,
     database: "bamazon_db"
 });
 // Connect to the database

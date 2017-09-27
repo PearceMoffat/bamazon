@@ -40,3 +40,4 @@ INSERT INTO products (product_name, department_name, price, stock_quantity) VALU
 
 SELECT * FROM products;
 SELECT * FROM departments;
+SELECT departments.department_id, departments.department_name, SUM(products.product_sales) FROM products INNER JOIN departments ON products.department_name = departments.department_name GROUP BY products.department_name;
